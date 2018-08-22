@@ -31,7 +31,7 @@ Sonya A. MacParland,
     Oyedele Adeyi,
     Gordon Keller,
     Gary D. Bader,
-    Ian D. McGilvray.  
+    and Ian D. McGilvray.  
 Nature Communications, 2018 (in press).  
 Data portal by [scClustViz](https://baderlab.github.io/scClustViz).  
 ### Abstract
