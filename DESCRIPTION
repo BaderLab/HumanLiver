@@ -1,7 +1,7 @@
 Package: HumanLiver
 Type: Package
 Title: Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations
-Version: 1.1.0
+Version: 1.2.0
 Date: 2018-08-22
 Author: Sonya A. MacParland,
     Jeff C. Liu,
@@ -53,7 +53,7 @@ Abstract: The liver is the largest solid organ in the body and is critical for
     cell resolution that outlines the characteristics of resident cells in the 
     liver, and in particular provides a map of the human hepatic immune 
     microenvironment. 
-License: CC BY-NC-ND 4.0 https://creativecommons.org/licenses/by-nc-nd/4.0/
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: org.Hs.eg.db
