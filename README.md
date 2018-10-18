@@ -50,12 +50,12 @@ liver, and in particular provides a map of the human hepatic immune
 microenvironment. 
 
 ## Usage
-You can install this package by running:
+This is an R package used to explore the single-cell RNAseq data presented in this paper. You can install this package in R by running:
 ```{r}
 install.packages("devtools")
 devtools::install_github("BaderLab/HumanLiver")
 ```
-It takes a while for this command to run, since data files are larger than your usual github code.
+It takes a while for this command to run, since data files are larger than your usual github code. You only need to run this installation step the first time you use this package on your computer.
 
 Then the data can be viewed in the [*scClustViz*](https://baderlab.github.io/scClustViz) Shiny app by running:
 ```{r}
