@@ -50,7 +50,7 @@ liver, and in particular provides a map of the human hepatic immune
 microenvironment. 
 
 ## Usage
-This is an R package used to explore the single-cell RNAseq data presented in this paper. You can install this package in R by running:
+This is an R package used to explore the human liver single-cell RNAseq data presented in this paper. You can install this package in R by running:
 ```{r}
 install.packages("devtools")
 devtools::install_github("BaderLab/HumanLiver")
