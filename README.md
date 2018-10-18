@@ -1,4 +1,4 @@
-# Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations
+# [Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations](https://doi.org/10.1038/s41467-018-06318-7)
 Sonya A. MacParland,
     Jeff C. Liu,
     Xue-Zhong Ma,
@@ -32,7 +32,7 @@ Sonya A. MacParland,
     Gordon Keller,
     Gary D. Bader,
     Ian D. McGilvray.  
-Nature Communications, 2018 (in press).  
+Nature Communications, 2018. [DOI:10.1038/s41467-018-06318-7](https://doi.org/10.1038/s41467-018-06318-7)
 Data portal by [scClustViz](https://baderlab.github.io/scClustViz).  
 ## Abstract
 The liver is the largest solid organ in the body and is critical for 
@@ -68,4 +68,4 @@ biocLite("org.Hs.eg.db")
 *scClustViz* is a visualization tool for single-cell RNAseq designed to assess clustering results 
 for biological relevance using a metric based on differential gene expression between clusters. It 
 also has figures designed for the identification of clusters and their marker genes. See 
-[the website](https://baderlab.github.io/scClustViz) and upcoming paper for more details.
+[the website](https://baderlab.github.io/scClustViz) and [paper](https://f1000research.com/articles/7-1522/) for more details.
