@@ -32,8 +32,9 @@ Sonya A. MacParland,
     Gordon Keller,
     Gary D. Bader,
     Ian D. McGilvray.  
-Nature Communications, 2018. [DOI:10.1038/s41467-018-06318-7](https://doi.org/10.1038/s41467-018-06318-7)
+Nature Communications, 2018. [DOI: 10.1038/s41467-018-06318-7](https://doi.org/10.1038/s41467-018-06318-7)  
 Data portal by [scClustViz](https://baderlab.github.io/scClustViz).  
+
 ## Abstract
 The liver is the largest solid organ in the body and is critical for 
 metabolic and immune functions. Surprisingly little is known about the cells 
