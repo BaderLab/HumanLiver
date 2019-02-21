@@ -58,7 +58,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: org.Hs.eg.db
-Imports: scClustViz (>= 1.0.  1),
+Imports: scClustViz (>= 1.0.1),
     Matrix
 Remotes: BaderLab/scClustViz
 RoxygenNote: 6.1.1
