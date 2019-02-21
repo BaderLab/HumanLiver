@@ -1,8 +1,8 @@
 Package: HumanLiver
 Type: Package
 Title: Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations
-Version: 1.2.0
-Date: 2018-08-22
+Version: 1.3.0
+Date: 2018-02-20
 Author: Sonya A. MacParland,
     Jeff C. Liu,
     Xue-Zhong Ma,
@@ -38,9 +38,10 @@ Author: Sonya A. MacParland,
     Ian D. McGilvray
 Maintainer: Brendan T. Innes <brendan.innes@mail.utoronto.ca>
 Description: Data package for the 2018 Nature Communications paper sharing its 
-    title (in press). Please cite this paper when using the data. 
+    title (doi:10.1038/s41467-018-06318-7). Please cite this paper when using the data. 
     The data consists of processed files ready for visualization 
-    in scClustViz (https://baderlab.github.io/scClustViz).
+    in scClustViz (https://baderlab.github.io/scClustViz), specifically a Seurat 
+    object and sCVdata object.
 Abstract: The liver is the largest solid organ in the body and is critical for 
     metabolic and immune functions. Surprisingly little is known about the cells 
     that make up the human liver and its immune microenvironment. Here we report 
@@ -57,7 +58,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: org.Hs.eg.db
-Imports: scClustViz,
+Imports: scClustViz (>= 1.0.  1),
     Matrix
 Remotes: BaderLab/scClustViz
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
