@@ -2,7 +2,7 @@ Package: HumanLiver
 Type: Package
 Title: Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations
 Version: 1.3.5
-Date@R: Sys.Date()
+Date: 2019-03-22
 Author: Sonya A. MacParland,
     Jeff C. Liu,
     Xue-Zhong Ma,
