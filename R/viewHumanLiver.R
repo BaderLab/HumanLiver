@@ -6,6 +6,14 @@
 #' @param outPath Default = "./" (the working directory). Specify the directory
 #'   used to save/load any analysis files you generate while exploring the
 #'   \code{HumanLiver} data.
+#' @param imageFileType Default="pdf". The file format for saved figures. One of
+#'   \code{"pdf"} (generated with \code{\link[grDevices]{cairo_pdf}}),
+#'   \code{"eps"} (generated with \code{\link[grDevices]{cairo_ps}}),
+#'   \code{"tiff"} (generated with \code{\link[grDevices]{tiff}}), or
+#'   \code{"png"} (generated with \code{\link[grDevices]{png}}).
+#' @param ... Named options that should be passed to the
+#'   \code{\link[shiny]{runApp}} call (these can be any of the following:
+#'   "port", "launch.browser", "host", "quiet", "display.mode" and "test.mode").
 #'
 #' @return The function causes the scClustViz Shiny GUI app to open in a
 #'   seperate window.
@@ -18,7 +26,7 @@
 #'
 #' @export
 
-viewHumanLiver <- function(outPath="./") {
+viewHumanLiver <- function(outPath="./",imageFileType="pdf",...) {
   filePath <- system.file("liver/HumanLiver.RData",package="HumanLiver")
   cellMarkers <- list("Hepatocytes"=c("ALB","HAMP","ARG1","PCK1","AFP","BCHE"),
                       "LSECs"=c("CALCRL","CD32B","VWF"),
@@ -39,11 +47,15 @@ viewHumanLiver <- function(outPath="./") {
     scClustViz::runShiny(filePath=filePath,
                          outPath=outPath,
                          cellMarkers=cellMarkers,
-                         annotationDB=annotationDB)
+                         annotationDB=annotationDB,
+                         imageFileType=imageFileType,
+                         ...)
 
   } else {
     scClustViz::runShiny(filePath=filePath,
                          outPath=outPath,
-                         cellMarkers=cellMarkers)
+                         cellMarkers=cellMarkers,
+                         imageFileType=imageFileType,
+                         ...)
   }
 }
