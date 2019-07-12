@@ -4,12 +4,22 @@
 \alias{viewHumanLiver}
 \title{View HumanLiver data in the scClustViz Shiny app}
 \usage{
-viewHumanLiver(outPath = "./")
+viewHumanLiver(outPath = "./", imageFileType = "pdf", ...)
 }
 \arguments{
 \item{outPath}{Default = "./" (the working directory). Specify the directory
 used to save/load any analysis files you generate while exploring the
 \code{HumanLiver} data.}
+
+\item{imageFileType}{Default="pdf". The file format for saved figures. One of
+\code{"pdf"} (generated with \code{\link[grDevices]{cairo_pdf}}),
+\code{"eps"} (generated with \code{\link[grDevices]{cairo_ps}}),
+\code{"tiff"} (generated with \code{\link[grDevices]{tiff}}), or
+\code{"png"} (generated with \code{\link[grDevices]{png}}).}
+
+\item{...}{Named options that should be passed to the
+\code{\link[shiny]{runApp}} call (these can be any of the following:
+"port", "launch.browser", "host", "quiet", "display.mode" and "test.mode").}
 }
 \value{
 The function causes the scClustViz Shiny GUI app to open in a
