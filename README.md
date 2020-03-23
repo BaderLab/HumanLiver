@@ -57,6 +57,8 @@ devtools::install_github("BaderLab/HumanLiver")
 ```
 It takes a while for this command to run, since data files are larger than your usual github code. You only need to run this installation step the first time you use this package on your computer.
 
+If you get an error about not being able to install `multtest`, try installing it directly from Bioconductor with `BiocManager::install("multtest")`.  This error has occured during `Seurat` installation, but may be resolved in newer versions.
+
 Then the data can be viewed in the [*scClustViz*](https://baderlab.github.io/scClustViz) Shiny app by running:
 ```{r}
 library(HumanLiver)
