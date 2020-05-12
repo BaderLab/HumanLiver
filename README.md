@@ -49,6 +49,9 @@ cell resolution that outlines the characteristics of resident cells in the
 liver, and in particular provides a map of the human hepatic immune 
 microenvironment. 
 
+### [View this data online](http://shiny.baderlab.org/#human-liver-atlas)
+
+
 ## Usage
 This is an R package used to explore the human liver single-cell RNAseq data presented in this paper. You can install this package in R by running:
 ```{r}

@@ -48,6 +48,7 @@ viewHumanLiver <- function(outPath="./",imageFileType="pdf",...) {
                          outPath=outPath,
                          cellMarkers=cellMarkers,
                          annotationDB=annotationDB,
+                         rownameKeytype="SYMBOL",
                          imageFileType=imageFileType,
                          ...)
 
