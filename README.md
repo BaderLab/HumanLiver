@@ -49,7 +49,7 @@ cell resolution that outlines the characteristics of resident cells in the
 liver, and in particular provides a map of the human hepatic immune 
 microenvironment. 
 
-### [View this data online](http://shiny.baderlab.org/#human-liver-atlas)
+### [View this data online](http://shiny.baderlab.org/HumanLiverAtlas/)
 
 
 ## Usage
